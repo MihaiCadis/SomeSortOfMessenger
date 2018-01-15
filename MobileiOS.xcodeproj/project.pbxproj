@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143349CA95B322C9EC3B8692 /* Pods_MobileiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436FB5C320CFB9BB49BD7DCD /* Pods_MobileiOS.framework */; };
 		C72EAAAB1FE72D6800ABB750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EAAAA1FE72D6800ABB750 /* AppDelegate.swift */; };
-		C72EAAAD1FE72D6800ABB750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EAAAC1FE72D6800ABB750 /* ViewController.swift */; };
+		C72EAAAD1FE72D6800ABB750 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EAAAC1FE72D6800ABB750 /* MessagesViewController.swift */; };
 		C72EAAB01FE72D6800ABB750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72EAAAE1FE72D6800ABB750 /* Main.storyboard */; };
 		C72EAAB31FE72D6800ABB750 /* MobileiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C72EAAB11FE72D6800ABB750 /* MobileiOS.xcdatamodeld */; };
 		C72EAAB51FE72D6800ABB750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72EAAB41FE72D6800ABB750 /* Assets.xcassets */; };
 		C72EAAB81FE72D6800ABB750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72EAAB61FE72D6800ABB750 /* LaunchScreen.storyboard */; };
+		C740323B20051265006FC264 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740323A20051265006FC264 /* LogInViewController.swift */; };
+		C740323D20052D08006FC264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C740323C20052D08006FC264 /* GoogleService-Info.plist */; };
+		C740323F200584E8006FC264 /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740323E200584E8006FC264 /* NewMessageTableViewController.swift */; };
+		C740324220059191006FC264 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740324120059191006FC264 /* User.swift */; };
+		C7403244200843D0006FC264 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7403243200843D0006FC264 /* LoginController+handlers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		436FB5C320CFB9BB49BD7DCD /* Pods_MobileiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C69CE57779834EE05350689 /* Pods-MobileiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileiOS/Pods-MobileiOS.release.xcconfig"; sourceTree = "<group>"; };
 		C72EAAA71FE72D6700ABB750 /* MobileiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72EAAAA1FE72D6800ABB750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C72EAAAC1FE72D6800ABB750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C72EAAAC1FE72D6800ABB750 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		C72EAAAF1FE72D6800ABB750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C72EAAB21FE72D6800ABB750 /* MobileiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileiOS.xcdatamodel; sourceTree = "<group>"; };
 		C72EAAB41FE72D6800ABB750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C72EAAB71FE72D6800ABB750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C72EAAB91FE72D6800ABB750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C740323A20051265006FC264 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C740323C20052D08006FC264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C740323E200584E8006FC264 /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
+		C740324120059191006FC264 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C7403243200843D0006FC264 /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		DB69128BA76EC7C9183B6195 /* Pods-MobileiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileiOS/Pods-MobileiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143349CA95B322C9EC3B8692 /* Pods_MobileiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3B7DF66722BC49BF3833965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB69128BA76EC7C9183B6195 /* Pods-MobileiOS.debug.xcconfig */,
+				9C69CE57779834EE05350689 /* Pods-MobileiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C72EAA9E1FE72D6700ABB750 = {
 			isa = PBXGroup;
 			children = (
 				C72EAAA91FE72D6800ABB750 /* MobileiOS */,
 				C72EAAA81FE72D6700ABB750 /* Products */,
+				A3B7DF66722BC49BF3833965 /* Pods */,
+				EA5770A6E8690A2F622B6B05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,52 @@
 		C72EAAA91FE72D6800ABB750 /* MobileiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C74032402005917D006FC264 /* Model */,
+				C740323920050EB2006FC264 /* Controller */,
+				C72EAABF1FE72EE700ABB750 /* Exstras */,
 				C72EAAAA1FE72D6800ABB750 /* AppDelegate.swift */,
-				C72EAAAC1FE72D6800ABB750 /* ViewController.swift */,
 				C72EAAAE1FE72D6800ABB750 /* Main.storyboard */,
-				C72EAAB41FE72D6800ABB750 /* Assets.xcassets */,
-				C72EAAB61FE72D6800ABB750 /* LaunchScreen.storyboard */,
 				C72EAAB91FE72D6800ABB750 /* Info.plist */,
-				C72EAAB11FE72D6800ABB750 /* MobileiOS.xcdatamodeld */,
+				C740323C20052D08006FC264 /* GoogleService-Info.plist */,
 			);
 			path = MobileiOS;
+			sourceTree = "<group>";
+		};
+		C72EAABF1FE72EE700ABB750 /* Exstras */ = {
+			isa = PBXGroup;
+			children = (
+				C72EAAB41FE72D6800ABB750 /* Assets.xcassets */,
+				C72EAAB61FE72D6800ABB750 /* LaunchScreen.storyboard */,
+				C72EAAB11FE72D6800ABB750 /* MobileiOS.xcdatamodeld */,
+			);
+			path = Exstras;
+			sourceTree = "<group>";
+		};
+		C740323920050EB2006FC264 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C72EAAAC1FE72D6800ABB750 /* MessagesViewController.swift */,
+				C740323A20051265006FC264 /* LogInViewController.swift */,
+				C7403243200843D0006FC264 /* LoginController+handlers.swift */,
+				C740323E200584E8006FC264 /* NewMessageTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C74032402005917D006FC264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C740324120059191006FC264 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA5770A6E8690A2F622B6B05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				436FB5C320CFB9BB49BD7DCD /* Pods_MobileiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72EAABC1FE72D6800ABB750 /* Build configuration list for PBXNativeTarget "MobileiOS" */;
 			buildPhases = (
+				5D7E743A2D4E34DF32AD4BE6 /* [CP] Check Pods Manifest.lock */,
 				C72EAAA31FE72D6700ABB750 /* Sources */,
 				C72EAAA41FE72D6700ABB750 /* Frameworks */,
 				C72EAAA51FE72D6700ABB750 /* Resources */,
+				BD6502B15F016CFFEC598FEB /* [CP] Embed Pods Frameworks */,
+				B320C7427F0C99B629956F09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C72EAAB81FE72D6800ABB750 /* LaunchScreen.storyboard in Resources */,
+				C740323D20052D08006FC264 /* GoogleService-Info.plist in Resources */,
 				C72EAAB51FE72D6800ABB750 /* Assets.xcassets in Resources */,
 				C72EAAB01FE72D6800ABB750 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +201,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D7E743A2D4E34DF32AD4BE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B320C7427F0C99B629956F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileiOS/Pods-MobileiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6502B15F016CFFEC598FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileiOS/Pods-MobileiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileiOS/Pods-MobileiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C72EAAA31FE72D6700ABB750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72EAAAD1FE72D6800ABB750 /* ViewController.swift in Sources */,
+				C72EAAAD1FE72D6800ABB750 /* MessagesViewController.swift in Sources */,
 				C72EAAAB1FE72D6800ABB750 /* AppDelegate.swift in Sources */,
+				C740324220059191006FC264 /* User.swift in Sources */,
+				C740323B20051265006FC264 /* LogInViewController.swift in Sources */,
+				C7403244200843D0006FC264 /* LoginController+handlers.swift in Sources */,
 				C72EAAB31FE72D6800ABB750 /* MobileiOS.xcdatamodeld in Sources */,
+				C740323F200584E8006FC264 /* NewMessageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +407,7 @@
 		};
 		C72EAABD1FE72D6800ABB750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB69128BA76EC7C9183B6195 /* Pods-MobileiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +423,7 @@
 		};
 		C72EAABE1FE72D6800ABB750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C69CE57779834EE05350689 /* Pods-MobileiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
