@@ -126,6 +126,7 @@ class LogInViewController: UIViewController {
         profileImageViewHeightAnchor = profileImageView.heightAnchor.constraint(equalToConstant: 100)
         profileImageViewHeightAnchor?.isActive = true
         
+       
         
         
     }

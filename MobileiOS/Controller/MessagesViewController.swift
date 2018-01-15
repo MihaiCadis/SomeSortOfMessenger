@@ -11,6 +11,7 @@ import Firebase
 
 class MessagesViewController: UITableViewController {
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         checkIfUserIsLoggedIn()
