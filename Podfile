@@ -7,6 +7,7 @@ target 'MobileiOS' do
 
   # Pods for MobileiOS
 
+pod 'Firebase'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
